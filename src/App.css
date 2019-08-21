@@ -33,10 +33,15 @@
 }
 
 
-/* ***************************** */
+/* ***************************************************************************** */
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   margin: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px; 
+  background: #ffcf32;
 }
 
 ol, ul {
@@ -54,10 +59,11 @@ ol, ul {
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: #ff9c32;
+  border: 1px solid rgb(22, 12, 12); 
   float: left;
-  font-size: 24px;
+  font-size: 35px;
+  /* size of the 'O' and 'X' */
   font-weight: bold;
   line-height: 34px;
   height: 34px;
@@ -73,7 +79,7 @@ ol, ul {
 }
 
 .kbd-navigation .square:focus {
-  background: #ddd;
+  background: rgb(238, 215, 215);
 }
 
 .game {
